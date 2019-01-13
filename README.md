@@ -1,2 +1,2 @@
 # help-me
-Website Project
+Website Project in Empowerment Technologies
