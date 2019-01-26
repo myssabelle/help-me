@@ -23,6 +23,7 @@ p {
     font-size: 30px;
     letter-spacing: 15px;
     text-align: center;
+
 }
 a:link, a:visited {
   background-color: #ffd9b3;
@@ -31,18 +32,20 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 100px;
 }
 
 a:hover, a:active {
   background-color: pink;
 }
+
 h2, h3{
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 100px;
+    font-size: 120px;
     font-weight: bold;
     letter-spacing: -10px;
     line-height: 1.2;
-    margin-top: 180px;
+    margin-top: 10px;
     margin-bottom: 0px;
     text-align:center;
 	background: linear-gradient(to right, #ff7aa0 10%, 	#FFFF00 100%);
@@ -53,4 +56,32 @@ h2, h3{
 
 video {
     width: 100%;
+}
+
+
+.icons {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    max-height: 0;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: max-height 1s ease;
+}
+
+
+.icons:hover {
+    max-height: 2000px;
+}
+
+.iconlink:link, .iconlink:visited {
+    background-color: transparent;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
