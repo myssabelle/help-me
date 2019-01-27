@@ -83,23 +83,24 @@ img{
 .icons {
     position: fixed;
     display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
+    justify-content:center;
+    padding-top: 70px;
     max-height: 0;
     overflow: hidden;
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     right: 0;
     z-index: 2;
-    transition: all 2s ease;
+    transition: all 5s ease;
 }
+
 
 .icons:hover {
     max-height: 2000px;
 }
 
 .iconlink:link, .iconlink:visited {
-    background-color: transparent;
+    background-color: white;
     margin-bottom: 0;
     text-align: center;
     text-decoration: none;
@@ -108,6 +109,31 @@ img{
 }
 
 .iconlink:link {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content:center;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.smedialink:link, .smedialink:visited {
+    background-color: transparent;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.smedialink:link {
     display: flex;
     align-items: center;
     overflow: hidden;
