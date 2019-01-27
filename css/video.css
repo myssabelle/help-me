@@ -58,7 +58,6 @@ video {
     width: 100%;
 }
 
-
 .icons {
     position: fixed;
     display: flex;
@@ -70,7 +69,7 @@ video {
     left: 0;
     right: 0;
     z-index: 2;
-    transition: max-height 1s ease;
+    transition: all 1s ease;
 }
 
 
@@ -80,8 +79,15 @@ video {
 
 .iconlink:link, .iconlink:visited {
     background-color: transparent;
-    padding: 14px 25px;
+    margin-bottom: 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 0;
+}
+
+.iconlink:link {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }

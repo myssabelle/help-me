@@ -66,3 +66,49 @@ h2, h3{
 video {
     width: 80%;
 }
+p.description2 , .description3{
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align:justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img{
+    width: 40%;
+}
+
+.icons {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    max-height: 0;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 2s ease;
+}
+
+.icons:hover {
+    max-height: 2000px;
+}
+
+.iconlink:link, .iconlink:visited {
+    background-color: transparent;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.iconlink:link {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
