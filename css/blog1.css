@@ -79,7 +79,6 @@ p.description2 , .description3{
 img{
     width: 40%;
 }
-
 .icons {
     position: fixed;
     display: flex;
@@ -94,7 +93,6 @@ img{
     transition: all 5s ease;
 }
 
-
 .icons:hover {
     max-height: 2000px;
 }
@@ -106,6 +104,7 @@ img{
     text-decoration: none;
     display: inline-block;
     padding: 0;
+    margin-left: 0;
 }
 
 .iconlink:link {
