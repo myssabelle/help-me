@@ -50,7 +50,7 @@ a:hover, a:active {
     transition: all 5s ease;
 }
 
-.firstblog.firstblog, .secondblog.secondblog{
+.firstblog.firstblog, .secondblog.secondblog, .thirdblog.thirdblog{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
